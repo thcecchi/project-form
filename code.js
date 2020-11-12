@@ -1,5 +1,6 @@
 var Airtable = require('airtable');
-var base = new Airtable({apiKey: 'keyx4Y6k1k7YSNgiD'}).base('appN4cpWc7TV3YYd1');
+var mykey = config.MY_KEY
+var base = new Airtable({apiKey: mykey}).base('appN4cpWc7TV3YYd1');
 
 function sendWord () {
   var newWord = $('#wordField').val();
