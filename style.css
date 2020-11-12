@@ -1,0 +1,99 @@
+html {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(115,29,216,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: url("./cursor.svg"), pointer;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* #formBlock {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 136px;
+  display: flex;
+  flex-direction: column;
+} */
+
+textarea {
+  background: rgba(255,255,255,.0);
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 68px;
+  height: 300px;
+  font-family: 'Archivo', sans-serif;
+  text-align: center;
+  align-self: center;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  color: #000000;
+  transition: background-color .3s, width .4s ease-out;
+  cursor: url("./cursor.svg"), pointer;
+  display: block;
+  text-align: center;
+  letter-spacing: 1px;
+  background: rgba(255,255,255,1);
+  font-size: 21px;
+  border: none;
+  border-radius: 100px;
+  height: 64px;
+  width: 200px;
+  margin: 0 auto;
+  /* margin-top: 56px; */
+  -webkit-box-shadow: 4px 4px 8px 4px rgba(5,124,171,0.04);
+  box-shadow: 4px 4px 8px 4px rgba(5,124,171,0.04);
+}
+
+button:disabled {
+  color: #000000;
+}
+
+#question {
+  margin-top: 64px;
+  color: #000000;
+  display: block;
+  width: 100%;
+  height: 160px;
+  font-size: 89px;
+  font-family: 'Archivo', sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  #question {
+    margin-top: 24px;
+    font-size: 50px;
+  }
+
+  textarea {
+    height: 200px;
+    font-size: 38px;
+  }
+
+  button {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    bottom: 0;
+    align-self: flex-end;
+  }
+
+  #formBlock {
+    margin-top: 0px;
+  }
+}
