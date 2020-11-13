@@ -55,12 +55,14 @@ function startTyping () {
     clearField();
     $('#wordField').css( "color", "#262626" );
   }
+  $('#wordField').css("background-color", "rgba(255,255,255,.05)")
 }
 
 function blurField () {
   if ($('#wordField').val() === "") {
     insertValue ();
   }
+  $('#wordField').css("background-color", "rgba(255,255,255,0)")
 }
 
 function insertValue () {

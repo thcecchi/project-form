@@ -15,22 +15,21 @@ body {
   margin: 0;
 }
 
-textarea {
+#wordField {
   background: rgba(255,255,255,.0);
   border: none;
-  border-radius: 0;
   display: block;
   width: 90%;
   margin: 0 auto;
-  margin-top: 64px;
   font-size: 68px;
-  height: 300px;
+  height: 200px;
   font-family: 'Archivo', sans-serif;
   text-align: center;
   align-self: center;
+  border-radius: 16px;
 }
 
-textarea:focus {
+#wordField:focus {
   outline: none;
 }
 
@@ -74,8 +73,8 @@ button:disabled {
     font-size: 50px;
   }
 
-  textarea {
-    height: 200px;
+  #wordField {
+    height: 136px;
     font-size: 38px;
     margin-bottom: 0;
   }
