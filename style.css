@@ -4,7 +4,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   cursor: url("./cursor.svg"), pointer;
-  height: 100vh;
+  height: 100%;
 }
 
 body {
