@@ -57,10 +57,11 @@ button:disabled {
 }
 
 #question {
+  align-self: center;
   margin-top: 64px;
   color: #000000;
   display: block;
-  width: 100%;
+  width: 85%;
   height: 160px;
   font-size: 89px;
   font-family: 'Archivo', sans-serif;
