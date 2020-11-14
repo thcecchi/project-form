@@ -16,6 +16,7 @@ body {
 }
 
 #wordField {
+  white-space: pre-wrap;
   background: rgba(255,255,255,.0);
   border: none;
   display: block;
@@ -63,7 +64,7 @@ button:disabled {
   display: block;
   width: 85%;
   height: 160px;
-  font-size: 89px;
+  font-size: 67px;
   font-family: 'Archivo', sans-serif;
   text-align: center;
 }
